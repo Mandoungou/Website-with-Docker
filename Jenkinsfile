@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Git Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/segunofe/Website-Containerization-using-Docker.git'
+                git branch: 'main', url: 'https://github.com/Mandoungou/Website-with-Docker.git'
             }
         }
         
