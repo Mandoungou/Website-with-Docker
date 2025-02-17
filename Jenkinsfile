@@ -17,7 +17,7 @@ pipeline {
         
         stage('Deploying Application') {
             steps {
-                sh 'docker run --rm -d -p 8000:8000 --name webapp_ctr3 webapp:${BUILD_NUMBER}'
+                sh 'docker run --rm -d -p 8000:8000 --name webapp_ctr1 webapp:${BUILD_NUMBER}'
             }
         }
 
