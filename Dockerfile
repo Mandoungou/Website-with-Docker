@@ -6,7 +6,6 @@ WORKDIR /usr/src/app
 
 # Copy the HTML file and the CSS file (you need to create style.css alongside your Dockerfile)
 COPY index.html ./
-COPY style.css ./
 
 # Expose port 8000 for the web server
 EXPOSE 8000
